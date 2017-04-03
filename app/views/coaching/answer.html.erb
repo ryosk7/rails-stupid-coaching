@@ -1,2 +1,6 @@
-<h1>Coaching#answer</h1>
-<p>Find me in app/views/coaching/answer.html.erb</p>
+<h1>Coaching - Answer</h1>
+
+<p>Your question was: <%= @query %></p>
+<p>The coach's answer was: <%= @answer %></p>
+
+<%= link_to "Ask another question.", ask_path %>
